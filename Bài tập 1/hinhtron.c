@@ -4,7 +4,7 @@ int main(void)
 { 
 	//Khai bao bien DT, CV kieu double
 	double DT, CV;
-	//Khai bao bien R kieu double
+	//Khai bao bien R kieu double va gan gia tri
 	double R = 1.5 ;
 	//Khai bao hang kieu PI kieu duoble
 	const double PI = 3.14;
@@ -13,7 +13,7 @@ int main(void)
 	//Tinh Dien tich
 	DT = R*R*PI;
 	//Hien thi ra man hinh chu vi
-  printf("CV: %0.1f\n",CV);
+  printf("CV| %0.1f\n",CV);
   // Hien thi ra man hinh dien tich
   printf("DT: %0.1f\n",DT);
   getchar();
