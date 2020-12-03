@@ -12,8 +12,6 @@ int main(void)
 	CV = 2*R*PI;
 	//Tinh Dien tich
 	DT = R*R*PI;
-	//Hien thi ra man hinh ban kinh
-	printf("R: %0.1f\n",R=1.5);
 	//Hien thi ra man hinh chu vi
   printf("CV: %0.1f\n",CV);
   // Hien thi ra man hinh dien tich
