@@ -2,21 +2,21 @@
 
 int main (void)
 {
-	//Khai bao bien a
-	int a;
+	//Khai bao bien n
+	int n;
 	//Hien thi ra man hinh
 	printf("Nhap so \n");
 	//Nhap mot so ra tu ban phim
-	scanf("%d",&a);
+	scanf("%d",&n);
 	//Kiem tra a la chan hay le
-	if(a % 2==0 ) {
-		printf("%d la so chan ",a);
+	if(n % 2==0 ) {
+		printf("%d la so chan ",n);
 		}
-	else if (a % 2==0) {
-		printf("a = 0");
+	else if (n % 2==0) {
+		printf("n = 0");
 		}
 	else {
-		printf("%d la so le",a);
+		printf("%d la so le",n);
 		}
 
 getchar();
