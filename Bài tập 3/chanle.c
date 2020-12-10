@@ -8,7 +8,7 @@ int main (void)
 	printf("Nhap so \n");
 	//Nhap mot so ra tu ban phim
 	scanf("%d",&n);
-	//Kiem tra a la chan hay le
+	//Kiem tra n la chan hay le
 	if(n % 2==0 ) {
 		printf("%d la so chan ",n);
 		}
