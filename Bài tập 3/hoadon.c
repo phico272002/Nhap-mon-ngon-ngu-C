@@ -16,19 +16,19 @@ int main()
         scanf("%f",&dongia);
         //Tinh thanh tien
         thanhtien = soluong * dongia;
+        
 
-    if(soluong  >= 5)
+    if(soluong  >= 5 && dongia >= 500)
     {
         //Hien thi ra man hinh
-        printf("%0.1f so luong",thanhtien * 75 / 100);
+        printf(" Thanh tien: %0.1f",thanhtien * 50 / 100);
     }
-
     else
-        {
+    {
         //Hien thi ra man hinh
-        printf("%0.1f so luong",thanhtien);
+        printf("Thanh tien : %0.1f",thanhtien);
 
-        }
+    }
 
     return 0;
   }
