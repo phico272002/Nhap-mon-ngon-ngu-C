@@ -1,1 +1,10 @@
+Hoặc có dấu là: ||
+Dấu nháy đơn là : + - * /
+Dấu == là :  là một toán tử quan hệ nhằm so sánh xem hai biểu thức có bằng nhau hay không.
+Dấu = là dùng để gán
+Biến:
++ kích cở
++ Nội dung
++ địa chỉ
+default khoong caafn break 
 
