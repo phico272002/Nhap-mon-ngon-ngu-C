@@ -20,13 +20,13 @@ int main()
     if(soluong  >= 5)
     {
         //Hien thi ra man hinh
-        printf("%f so luong",thanhtien * 75 / 100);
+        printf("%0.1f so luong",thanhtien * 75 / 100);
     }
 
     else
         {
         //Hien thi ra man hinh
-        printf("%f so luong",thanhtien);
+        printf("%0.1f so luong",thanhtien);
 
         }
 
