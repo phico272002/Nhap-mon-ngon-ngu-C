@@ -4,12 +4,16 @@
 int main()
 {
 
-        //Khai bao bien kieu
+          //Khai bao bien kieu
     float dongia, soluong, thanhtien;
-        //Hien thi ra man hinh
-        printf("Nhap vao so luong va don gia:\n");
+        //Hien thi ra man hinh so luong
+        printf("Nhap vao so luong:\n");
         //Nhap mot so ra tu ban phim
-        scanf("%f%f",&soluong,&dongia);
+        scanf("%f",&soluong);
+        //Hien thi ra man hinh don gia
+        printf("Nhap vao don gia:\n");
+        //Nhap mot so tu ban phim
+        scanf("%f",&dongia);
         //Tinh thanh tien
         thanhtien = soluong * dongia;
 
