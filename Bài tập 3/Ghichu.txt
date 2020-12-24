@@ -7,4 +7,9 @@ Biến:
 + Nội dung
 + địa chỉ
 default khoong caafn break 
-
+\t la cach khoang trang
+Viết cấu trúc lặp có 3 yếu tố cần để ý
++ điều kiện dừng
++ Bộ đếm
++ Số bước đếm
+(++) là 1 cách khác (i = i + 1)
