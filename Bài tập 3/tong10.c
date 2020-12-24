@@ -2,13 +2,17 @@
 main()
 
 {
-	//Khai bao bien
-int tong;
+	//Khai bao bien tong, dem , n
+int tong, dem, n;
 	
 	tong = 0;
-int dem;
+	
+	//Hien thi ra man hinh
+	printf("Nhap n = ");
+	//Nhap tu gia tri tu ban phim
+	scanf("%d", &n);
 	//Vong lap for tinh tong
-for (dem = 1; dem <= 10; dem++) 
+for (dem = 1; dem <= n; dem++) 
 {
 	//Tinh tong
 	tong = tong + dem;
