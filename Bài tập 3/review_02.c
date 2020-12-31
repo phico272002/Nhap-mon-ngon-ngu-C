@@ -15,7 +15,7 @@ int main()
     scanf("%d", &b);
 	//Vong lap for
 for(i = a; i <= b; i++)
-{
+
 	//Dieu kien 1 be hon hoac bang i va i be hon hoac bang 9
 if(1 <= i && i <= 9)
 {
@@ -82,7 +82,7 @@ else
      printf("odd\n");
 }
 }
-}
+
 
 return 0;
 }
