@@ -72,13 +72,14 @@ else{
     printf("Nine\n");
 }
 }
-else{
+else
+{
 if(i%2==0){
-          printf("even\n");
+     printf("even\n");
 }
 else
 {
-      printf("odd\n");
+     printf("odd\n");
 }
 }
 }
