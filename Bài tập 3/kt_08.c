@@ -6,15 +6,15 @@ int main()
 
         //Khai bao bien kieu
     float a, b;
-        //Hien thi ra man hinh so luong
-        printf("Nhap vao so luong:\n");
+        //Hien thi ra man hinh so
+        printf("Nhap vao so thuc thu nhat:\n");
         //Nhap mot so ra tu ban phim
         scanf("%f",&a);
-        //Hien thi ra man hinh don gia
-        printf("Nhap vao don gia:\n");
+        //Hien thi ra man hinh
+        printf("Nhap vao so thuc thu hai:\n");
         //Nhap mot so tu ban phim
         scanf("%f",&b);
-        //Tinh tong 
+        //Tinh tong
     float tong = a * b;
         //Vong lap if cung dau
     if (tong > 0)
@@ -28,3 +28,4 @@ int main()
         }
 return 0;
 }
+
