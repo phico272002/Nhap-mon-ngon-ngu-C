@@ -15,3 +15,4 @@ Viết cấu trúc lặp có 3 yếu tố cần để ý
 (++) là 1 cách khác (i = i + 1)
 sqrt trả về căn bậc 2
 != toán tử khác
+abs là trị tuyệt đối
