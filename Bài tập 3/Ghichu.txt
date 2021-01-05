@@ -9,10 +9,13 @@ Biến:
 default khoong caafn break 
 \t la cach khoang trang
 Viết cấu trúc lặp có 3 yếu tố cần để ý
-+ điều kiện dừng
-+ Bộ đếm
-+ Số bước đếm
+Vong lap for     |
++ Bộ đếm         | 
++ Số bước đếm    |
++ điều kiện dừng |
+_________________|
 (++) là 1 cách khác (i = i + 1)
 sqrt trả về căn bậc 2
 != toán tử khác
 abs là trị tuyệt đối
+% Chia lay phan du
