@@ -7,7 +7,7 @@ int main()
     int a, b, i;
     //Nhap so lieu tu ban phim
     scanf("%d", &a);
-    //Hien thi ket qua ra man hinh
+    //Nhap so lieu tu ban phim
     scanf("%d", &b);
     //Vong lap for
 for(i = a; i <= b; i++)
