@@ -2,16 +2,16 @@
 
 int main() 
 {
-  int a, b, c;
-  a = 2; b = 3; c = 4;
+  int i, a;
+  
   printf("\nBang 2\n");
-  for(int i = 1; i < 11; i++)
-  printf("\n%dx%d=%d\t",a ,i ,a * i);
-   printf("\nBang 3\n");
-  for(int i = 1; i < 11; i++)
-  printf("\n%dx%d=%d\t",b ,i ,b * i);
-   printf("\nBang 4\n");
-  for(int i = 1; i < 11; i++)
-  printf("\n%dx%d=%d\t",c ,i ,c * i);
+  for( i = 1; i < 11; i++)
+  {
+  	for(a = 1; a < 11; a++)
+	{
+		printf("%dx%d=%d\t",i, a, i * a);
+	}
+	printf("\n");
+	}
   return 0;
 }
