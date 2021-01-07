@@ -3,19 +3,20 @@
 int main()
 {
   //Khai bao bien i va j
-int i, j;
-  printf("\t                      BANG CUU CHUONG\n");
-  //Vong lap tu 1 den 10
-for (i = 1; i < 11; i++)
-{
-  //Vong lap nhan tu 1 den 10
-for (j = 1; j < 10; j++)
-{
-  //Hien thi ra man hinh ket qua bang cuu chuong ra man hinh
-  printf("%d*%d=%d\t", j, i, j * i);
-}
-  printf("\n");
-}
-
+	int tich1 = 2, tich2 =3, tich3 = 4;
+		printf("\tBANG CUU CHUONG\n");
+    	printf("2x1=%d\t",tich1 * 1);
+    	printf("2x2=%d\t",tich1 * 2);
+    	printf("2x3=%d\t",tich1 * 3 );
+    	printf("2x4=%d\t\n",tich1 * 4);
+    	printf("3x1=%d\t",tich2 * 1);
+    	printf("3x2=%d\t",tich2 * 2);
+    	printf("3x3=%d\t",tich2 * 3);
+    	printf("3x4=%d\t\n",tich2 * 4);
+    	printf("4x1=%d\t",tich3 * 1);
+   		printf("4x2=%d\t",tich3 * 2);
+   		printf("4x3=%d\t",tich3 * 3);
+   		printf("4x4=%d\t",tich3 * 4);
+  
 return 0;
 }
