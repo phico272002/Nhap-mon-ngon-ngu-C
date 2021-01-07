@@ -9,12 +9,12 @@ int main()
     	printf("2x2=%d\t\n",tich1 * 2);
     	printf("2x3=%d\t\n",tich1 * 3 );
     	printf("2x4=%d\t\n",tich1 * 4);
-    	printf("\nBANG CUU CHUONG");
+    	printf("\nBANG CUU CHUONG\n");
     	printf("3x1=%d\t\n",tich2 * 1);
     	printf("3x2=%d\t\n",tich2 * 2);
     	printf("3x3=%d\t\n",tich2 * 3);
     	printf("3x4=%d\t\n",tich2 * 4);
-    	printf("\nBANG CUU CHUONG");
+    	printf("\nBANG CUU CHUONG\n");
     	printf("4x1=%d\t\n",tich3 * 1);
    	printf("4x2=%d\t\n",tich3 * 2);
    	printf("4x3=%d\t\n",tich3 * 3);
