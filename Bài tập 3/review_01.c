@@ -4,47 +4,45 @@ int main()
 {
 	//Khai bao bien
 int n;
-	//Hien thi ra ban hinh
-	printf("Nhap vao so \n");
 	//Nhap so tu ban phim
 	scanf("%d", &n);
 	//Nhap 1 de ra one
 if (n <= 1 )
 {
 	//Hien thi ra man hinh
-	printf("One",n);
+	printf("one");
 }	
 else if (n <= 2)
 {	
-	printf("Two",n);
+	printf("two");
 }
 else if (n <= 3)
 {
-	printf("Three",n);
+	printf("three");
 }
 else if (n <= 4)
 {
-	printf("Four",n);
+	printf("four");
 }
 else if (n <= 5)
 {
-	printf("Five",n);
+	printf("five");
 }
 else if (n <= 6)
 {
-	printf("Six",n);
+	printf("six");
 }
 else if (n <= 7)
 {
-	printf("Seven",n);
+	printf("seven");
 }
 else if (n <= 8)
 {
-	printf("Eight",n);
+	printf("eight");
 }
 else if (n <= 9)
 {
-	printf("Nine",n);
+	printf("nine");
 }
 else if (n > 9)
 {
