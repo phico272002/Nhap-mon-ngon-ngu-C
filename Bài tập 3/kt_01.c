@@ -16,9 +16,9 @@ int main()
     	printf("3x4=%d\t\n",tich2 * 4);
     	printf("\nBANG CUU CHUONG");
     	printf("4x1=%d\t\n",tich3 * 1);
-   		printf("4x2=%d\t\n",tich3 * 2);
-   		printf("4x3=%d\t\n",tich3 * 3);
-   		printf("4x4=%d\t\n",tich3 * 4);
+   	printf("4x2=%d\t\n",tich3 * 2);
+   	printf("4x3=%d\t\n",tich3 * 3);
+   	printf("4x4=%d\t\n",tich3 * 4);
   
 return 0;
 }
