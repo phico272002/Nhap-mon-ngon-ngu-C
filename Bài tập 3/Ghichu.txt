@@ -19,3 +19,4 @@ sqrt trả về căn bậc 2
 != toán tử khác
 abs là trị tuyệt đối
 % Chia lay phan du
+Cấu trúc mảng chỉ số ban đầu là 0
