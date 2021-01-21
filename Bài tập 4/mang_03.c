@@ -3,7 +3,7 @@
 int main () 
 {
   //Khai bao bien kem khoi tao mang (Chiec hop 100 ngan)
-  int a[100];
+  //int a[100];
   //Khao bao bien n va i
   int n, i;
   //Khai bao bien s de tinh tong
@@ -14,13 +14,14 @@ int main ()
   		printf("Nhap kich thuoc mang: \n");
       //Nhap so lieu tu ban phim
   		scanf("%d", &n);
+  		int a[n];
       //In dong chu Nhap so phan tu ra man hinh
       printf("Nhap so phan tu: \n");
       //Vong lap i 
  	for	(i = 0; i < n; i++)
 		{
       //Nhap so lieu phan tu ra man hinh
-      printf("Nhap phan tu : ");
+      printf("Nhap phan tu %d: ", i);
       scanf("%d", &a [i]); 
 		}
   //Vong lap hien thi mang a
@@ -35,7 +36,7 @@ int main ()
   	printf("Dem cac so chan: ");
 	for ( i = 0; i < n; i++)
 	{
-		if(a[i] % 2 == 0)
+		if(a[i] % 2 == 0 && a[i] != 0)
 		{
 			chan = chan + a [i];
 			printf("%d ", a[i]);	
@@ -46,7 +47,7 @@ int main ()
   	printf("Dem cac so le: ");
 	for ( i = 0; i < n;  i++)
 	{		
-		if(a[i] % 2 != 0)
+		if(a[i] % 2 != 0 )
 		{	
 			le = le + a [i];
 			printf("%d ", a[i]);	
