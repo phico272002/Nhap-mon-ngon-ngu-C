@@ -4,7 +4,6 @@ int tong (int a, int b, int c); //Khai bao ham tong
 int main(void)
 {
 int x, y, z;
-int n = 0;
   printf("Nhap so: ");
   scanf("%d", &x);
  printf("Nhap so: ");
