@@ -17,4 +17,5 @@ int n = 0;
   int tong(a, b, c)
   {
 return a + b + c;
+    //Kieu du lieu tra ve ham int
   }
