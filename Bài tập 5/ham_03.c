@@ -3,21 +3,21 @@
 #include<stdio.h>
 void Nhap_pt_mang(int a[])
 {
-  Nhap_pt_mang(a);
+  
 
 }
 void Hien_thi_pt_mang(int a[])
 {
-   Hien_thi_pt_mang(a);
+  
   
 }
 void Hien_thi_tong_chan(int a[])
 {
- Hien_thi_tong_chan(a);
+ 
 }
 void Dem_chan_le_0(int a[])
 {
-  Dem_chan_le_0(a);
+
 }
 
  //khoi ham main
