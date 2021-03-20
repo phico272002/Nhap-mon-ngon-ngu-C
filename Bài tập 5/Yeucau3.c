@@ -2,7 +2,8 @@
  
  //Tim uoc chung lon nhat
 int UCLN(int a, int b) {
-    if (b == 0) return a;
+    if (b == 0) 
+    return a;
     return UCLN(b, a % b);
 }
 int main() 
