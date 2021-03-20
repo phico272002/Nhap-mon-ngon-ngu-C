@@ -19,7 +19,7 @@ int main()
 
     while(i <= n)
     {
-        S = S + 1.0 / i;  // phải nhớ là 1.0 / i
+        S = S + 1.0 / i;
         i++;
     }
     printf("i = %d", i);
